@@ -1,0 +1,71 @@
+# Ignore build results for specific folders
+api/api/bin/
+api/api/obj/
+api/Core/bin/
+api/Core/obj/
+publish
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.tmp
+
+# Web specific files
+_SiteBackup/
+.cache/
+.publish/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# .NET Core / ASP.NET Core
+
+api.generate.sln
