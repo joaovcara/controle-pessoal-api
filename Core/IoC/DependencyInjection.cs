@@ -1,6 +1,6 @@
+using Microsoft.Extensions.DependencyInjection;
 using Core.V1.Login.Interfaces.Services;
 using Core.V1.Login.Services;
-using Microsoft.Extensions.DependencyInjection;
 using Core.V1.Cadastros.Usuario.Interfaces.Repositories;
 using Core.V1.Cadastros.Usuario.Repositories;
 using Core.V1.Cadastros.Usuario.Interfaces.Services;
@@ -15,10 +15,14 @@ using Core.V1.Cadastros.Categoria.Interfaces.Repositories;
 using Core.V1.Cadastros.Categoria.Repositories;
 using Core.V1.Cadastros.Categoria.Interfaces.Services;
 using Core.V1.Cadastros.Categoria.Services;
-using Core.V1.Financeiro.Conta.Interfaces.Repositories;
-using Core.V1.Financeiro.Conta.Repositories;
-using Core.V1.Financeiro.Conta.Interfaces.Services;
-using Core.V1.Financeiro.Conta.Services;
+using Core.V1.Financeiro.AgenteFinanceiro.Interfaces.Repositories;
+using Core.V1.Financeiro.AgenteFinanceiro.Repositories;
+using Core.V1.Financeiro.AgenteFinanceiro.Interfaces.Services;
+using Core.V1.Financeiro.AgenteFinanceiro.Services;
+using Core.V1.Financeiro.Banco.Interfaces.Repositories;
+using Core.V1.Financeiro.Banco.Repositories;
+using Core.V1.Financeiro.Banco.Interfaces.Services;
+using Core.V1.Financeiro.Banco.Services;
 
 namespace Core.IoC
 {
@@ -40,6 +44,9 @@ namespace Core.IoC
             services.AddScoped<IBancoRepository, BancoRepository>();
             services.AddScoped<IBancoService, BancoService>();
             
+            services.AddScoped<IAgenteFinanceiroRepository, AgenteFinanceiroRepository>();
+            services.AddScoped<IAgenteFinanceiroService, AgenteFinanceiroService>();
+
             services.AddScoped<ICategoriaRepository, CategoriaRepository>();
             services.AddScoped<ICategoriaService, CategoriaService>();
 

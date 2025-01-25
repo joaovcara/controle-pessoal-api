@@ -1,12 +1,12 @@
 
 using System.Data;
 using System.Data.SqlClient;
-using Core.V1.Financeiro.Conta.Interfaces.Repositories;
+using Core.V1.Financeiro.Banco.Interfaces.Repositories;
 using Dapper;
 using Microsoft.Extensions.Configuration;
-using Projeto.Api.Core.V1.Financeiro.Conta.Models;
+using Core.V1.Financeiro.Banco.Models;
 
-namespace Core.V1.Financeiro.Conta.Repositories
+namespace Core.V1.Financeiro.Banco.Repositories
 {
     public class BancoRepository : IBancoRepository
     {

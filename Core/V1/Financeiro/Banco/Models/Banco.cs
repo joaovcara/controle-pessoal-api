@@ -1,4 +1,4 @@
-namespace Projeto.Api.Core.V1.Financeiro.Conta.Models
+namespace Core.V1.Financeiro.Banco.Models
 {
     public class BancoModel
     {
