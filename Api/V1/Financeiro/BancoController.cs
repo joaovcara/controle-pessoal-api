@@ -1,7 +1,7 @@
-using Core.V1.Financeiro.Conta.Interfaces.Services;
+using Core.V1.Financeiro.Banco.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Projeto.Api.Core.V1.Financeiro.Conta.Models;
+using Core.V1.Financeiro.Banco.Models;
 
 namespace Api.Controllers
 {

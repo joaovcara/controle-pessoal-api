@@ -1,6 +1,6 @@
-using Projeto.Api.Core.V1.Financeiro.Conta.Models;
+using Core.V1.Financeiro.Banco.Models;
 
-namespace Core.V1.Financeiro.Conta.Interfaces.Services
+namespace Core.V1.Financeiro.Banco.Interfaces.Services
 {
     public interface IBancoService
     {
